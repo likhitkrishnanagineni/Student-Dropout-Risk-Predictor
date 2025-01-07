@@ -4,19 +4,19 @@ This project focuses on predicting student dropout risk using a Random Forest Cl
 
 Key Features
 
-Data Preparation
+1. Data Preparation: 
 The target variable dropout_risk is generated based on subject grades (G1, G2, G3), marking students with at least one grade below 10 as high risk.
 
-Feature Selection
+2. Feature Selection: 
 Relevant features include grades (G1, G2, G3), studytime, failures, and absences.
 
-Data Preprocessing
+3. Data Preprocessing: 
 Dummy encoding for categorical variables (if any).
 Feature standardization using StandardScaler.
 
-Model Training
+4. Model Training: 
 A Random Forest Classifier is trained with 100 estimators.
 
-User Interaction
+5. User Interaction: 
 A CLI-based user input system predicts dropout risk for custom student data.
 
